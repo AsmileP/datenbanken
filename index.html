@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style/input-form.css" />
+    <title>Wettbewerbs Formular</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" class="form">
+        <h2>Wettbewerbs Formular</h2>
+        <div class="form-control">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Enter your name" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="vorname">Vorname</label>
+          <input type="text" id="firstName" placeholder="Enter your firstname" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="strasse">Strasse</label>
+          <input type="text" id="strasse" placeholder="Enter your street" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="plz">PLZ</label>
+          <input type="text" id="plz" placeholder="Enter your PLZ" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="ort">Ort</label>
+          <input type="text" id="ort" placeholder="Enter your location" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Enter email" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="datum">Datum</label>
+          <input type="text" id="datum" placeholder="Enter your date" />
+          <small>Error message</small>
+        </div> 
+        <div class="form-control">
+          <label for="bemerkung">Bemerkung</label>
+          <input type="text" id="bemerkung" placeholder="Enter your text" />
+          <small>Error message</small>
+        </div>
+       
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <script src="script/validate-inputs.js"></script>
+    <script src="script/network.js"></script>
+  </body>
+</html>
